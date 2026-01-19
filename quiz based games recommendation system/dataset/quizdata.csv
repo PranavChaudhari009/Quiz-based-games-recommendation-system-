@@ -1,0 +1,11 @@
+difficulty,multiplayer,platform,time,genre
+Easy,Yes,PC,>1hr,Action
+Medium,Yes,Console,30-60min,Sports
+Hard,No,Mobile,<30min,strategy
+Medium,No,PC,>1hr,casual
+Easy,Yes,Mobile,30-60min,strategy
+Hard,Yes,PC,>1hr,Action
+Medium,No,Console,30-60min,Sports
+Easy,No,Mobile,<30min,strategy
+Medium,Yes,PC,>1hr,Action
+Hard,No,PC,>1hr,casual
