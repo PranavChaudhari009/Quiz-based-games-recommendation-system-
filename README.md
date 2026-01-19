@@ -20,48 +20,28 @@ The system uses Machine Learning (scikit-learn) for genre prediction and Flask f
 
 💻 Clean UI using HTML & CSS
 
-🧠 No .pkl file used (model runs directly)
+
 
 🛠️ Tech Stack
 
 Frontend
 
-HTML5
+-HTML5
 
-CSS3
+-CSS3
 
 Backend
 
-Python
+-Python
 
-Flask
+-Flask
 
 Machine Learning
 
-scikit-learn
+-scikit-learn
 
-pandas
+-pandas
 
-quiz-based-game-recommendation-system/
-│
-├── app.py
-├── model.py
-├── dataset/
-│   └── quizdata.csv
-│
-├── templates/
-│   ├── index.html
-│   └── result.html
-│
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── images/
-│       ├── game1.jpg
-│       ├── game2.jpg
-│       └── ...
-│
-├── README.md
 
 <img width="1919" height="964" alt="Screenshot 2026-01-19 211853" src="https://github.com/user-attachments/assets/5690ffc2-fdee-44c3-b760-96fc5724aa2d" />
 <img width="1915" height="970" alt="Screenshot 2026-01-19 211905" src="https://github.com/user-attachments/assets/4c181cea-f690-42bb-835e-f531b248ddc2" />
