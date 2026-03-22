@@ -1,3 +1,5 @@
+import os
+from pathlib import Path
 from flask import Flask, render_template, request
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
@@ -5,8 +7,10 @@ from sklearn.tree import DecisionTreeClassifier
 
 app = Flask(__name__)
 
+BASE_DIR = Path(__file__).resolve().parent
+DATASET_PATH = BASE_DIR / "dataset" / "quizdata.csv"
 
-df = pd.read_csv("dataset/quizdata.csv")
+df = pd.read_csv(DATASET_PATH)
 
 
 le_difficulty = LabelEncoder()
@@ -118,8 +122,6 @@ def predict():
 
     games = games_by_genre.get(genre, [])
     return render_template("result.html", genre=genre, games=games)
-
-import os
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
