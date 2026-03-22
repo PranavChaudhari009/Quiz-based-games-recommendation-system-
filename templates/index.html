@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <title>Game Quiz</title>
+</head>
+<body>
+   <body>
+    <div class="quiz-container">
+        <h2>Game Recommendation Quiz</h2>
+
+        <form action="/predict" method="post">
+            <label>Difficulty</label>
+            <select name="difficulty">
+                <option>Easy</option>
+                <option>Medium</option>
+                <option>Hard</option>
+            </select>
+
+            <label>Multiplayer</label>
+            <select name="multiplayer">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+
+            <label>Platform</label>
+            <select name="platform">
+                <option>PC</option>
+                <option>Console</option>
+                <option>Mobile</option>
+            </select>
+
+            <label>Play Time</label>
+            <select name="time">
+                <option>&lt;30min</option>
+                <option>30-60min</option>
+                <option>&gt;1hr</option>
+            </select>
+
+            <button type="submit">Get Recommendation</button>
+        </form>
+    </div>
+</body>
+
+    </form>
+</body>
+</html>
